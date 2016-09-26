@@ -90,13 +90,14 @@ public class Main {
         euler94pt2.calculate_euler94pt2();
     }
 
-
     public static void main(String[] args) {
         final long startTime = System.currentTimeMillis();
 
-        euler86.calculate_euler86();
+        // euler86.calculate_euler86();
+        euler113.calculateEuler113();
 
         final long endTime = System.currentTimeMillis();
         System.out.println("Total execution time: " + (endTime - startTime));
     }
+
 }
